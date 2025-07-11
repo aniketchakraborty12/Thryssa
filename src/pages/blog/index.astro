@@ -1,0 +1,25 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import CategoryFilter from "../../components/CategoryFilter.tsx";
+import { getCollection } from "astro:content";
+
+const allBlogs = await getCollection("blogs");
+
+const simplifiedBlogs = allBlogs.map((blog) => ({
+  title: blog.data.title,
+  excerpt: blog.data.excerpt,
+  pubDate: blog.data.pubDate.toISOString(),
+  categories: blog.data.categories,
+  slug: blog.slug,
+}));
+
+const allCategories = Array.from(
+  new Set(allBlogs.flatMap((b) => b.data.categories))
+).sort();
+---
+
+<Layout>
+  <h1 class="text-5xl text-center mt-20">All Blog Posts</h1>
+
+  <CategoryFilter client:load blogs={simplifiedBlogs} categories={allCategories} />
+</Layout>

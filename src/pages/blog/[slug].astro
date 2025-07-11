@@ -1,0 +1,61 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+    const blogs = await getCollection("blogs");
+    return blogs.map((blog) => ({
+        params: { slug: blog.slug },
+        props: { blog },
+    }));
+}
+
+const { blog } = Astro.props;
+const { title, pubDate, categories } = blog.data;
+const { Content, headings } = await blog.render();
+const toc = headings.filter(h => h.depth >= 2 && h.depth <= 4);
+---
+
+<Layout>
+    <div class="relative max-w-6xl mx-auto px-4 md:px-6 pb-20 flex gap-12">
+        <!-- TOC Sidebar -->
+        <aside class="hidden lg:block w-64 sticky top-24 self-start text-sm">
+        <h2 class="font-semibold text-gray-700 dark:text-gray-300 mb-4">Table of Contents</h2>
+        <nav class="space-y-2 text-gray-600 dark:text-gray-400">
+            {toc.map(item => (
+                <a
+                    href={`#${item.slug}`}
+                    class="block pl-[calc((item.depth - 2) * 1rem)] hover:text-[#54336c] transition-colors"
+                >
+                    {item.text}
+                </a>
+            ))}
+        </nav>
+        </aside>
+
+        <!-- Blog Content -->
+        <article class="prose prose-neutral dark:prose-invert prose-paragraph-spacing max-w-3xl mx-auto">
+        <h1 class="text-4xl font-bold mb-4">{title}</h1>
+
+        <div class="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            {new Date(pubDate).toLocaleDateString(undefined, {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+            })}
+        </div>
+
+        <div class="flex flex-wrap gap-2 mb-8">
+            {categories.map((cat) => (
+            <span
+                class="px-2 py-1 text-xs font-medium bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200 rounded-full"
+            >
+                {cat}
+            </span>
+            ))}
+        </div>
+
+        <Content />
+        </article>
+    </div>
+</Layout>

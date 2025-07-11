@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+*{
+    @apply transition-all duration-200
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+.dark{
+    @apply bg-black text-white
+}
+/* src/styles/prose-overrides.css */
+.prose p {
+    @apply my-7 leading-7;
+}
+
+.prose-paragraph-spacing h2 {
+    @apply text-3xl font-bold mt-10 mb-4;
+}
+.prose-paragraph-spacing h3 {
+    @apply text-2xl font-semibold mt-8 mb-3;
+}
+.prose-paragraph-spacing h4 {
+    @apply text-lg font-medium mt-6 mb-2;
+}
+
+
+.heading-anchor {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+}
+
+.heading-anchor::before {
+    content: "#";
+    position: absolute;
+    left: -1.25em;
+    color: #aaa;
+    font-weight: normal;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.heading-anchor:hover::before {
+    opacity: 1;
+}

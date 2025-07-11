@@ -1,0 +1,41 @@
+---
+export interface Props {
+  title: string;
+  excerpt: string;
+  pubDate: Date;
+  categories: string[];
+  slug: string;
+}
+
+const { title, excerpt, pubDate, categories, slug } = Astro.props;
+const formattedDate = pubDate.toLocaleDateString(undefined, {
+  year: "numeric",
+  month: "short",
+  day: "numeric",
+});
+---
+
+<a
+    href={`/blog/${slug}`}
+    class="group block border border-gray-300 dark:border-gray-600 rounded-xl p-6 transition-transform duration-200 hover:scale-[1.02] hover:shadow-md dark:hover:border-gray-400"
+    aria-labelledby={`blog-title-${slug}`}
+>
+    <article>
+        <h2
+        id={`blog-title-${slug}`}
+        class="text-xl font-semibold mb-2 transition-colors group-hover:text-[#54336c]"
+        >
+        {title}
+        </h2>
+
+        <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">{excerpt}</p>
+
+        <div class="flex flex-wrap gap-2 mb-4">
+            {categories.map((cat: string) => (
+                <span class="px-3 py-1 text-xs font-medium border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 rounded-full">{cat}</span>
+            ))}
+        </div>
+
+        <time class="block text-xs text-gray-500 dark:text-gray-400">{formattedDate}</time>
+    </article>
+</a>
