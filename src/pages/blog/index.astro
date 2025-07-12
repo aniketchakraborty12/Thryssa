@@ -5,6 +5,8 @@ import { getCollection } from "astro:content";
 
 const allBlogs = await getCollection("blogs");
 
+allBlogs.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
 const simplifiedBlogs = allBlogs.map((blog) => ({
   title: blog.data.title,
   excerpt: blog.data.excerpt,

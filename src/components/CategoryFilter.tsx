@@ -106,7 +106,7 @@ export default function CategoryFilter({ blogs, categories }: Props) {
                 href={`/blog/${blog.slug}`}
                 className="group block border border-gray-300 dark:border-gray-600 rounded-xl p-6 transition-transform duration-200 hover:scale-[1.02] hover:shadow-md dark:hover:border-gray-400"
               >
-                <h2 className="text-xl font-semibold group-hover:text-[#54336c] transition-colors mb-2">
+                <h2 className="text-xl font-semibold group-hover:text-[#54336c] transition-colors mb-2 line-clamp-2">
                   {blog.title}
                 </h2>
                 <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">

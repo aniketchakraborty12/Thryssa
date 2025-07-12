@@ -6,6 +6,10 @@
     @apply transition-all duration-200
 }
 
+html{
+    scroll-behavior: smooth
+}
+
 body {
     font-family: 'Libre Baskerville', serif;
 }
@@ -26,6 +30,13 @@ body {
 .prose-paragraph-spacing h4 {
     @apply text-lg font-medium mt-6 mb-2;
 }
+
+.prose h2,
+.prose h3,
+.prose h4 {
+    scroll-margin-top: 6rem;
+}
+
 
 
 .heading-anchor {
