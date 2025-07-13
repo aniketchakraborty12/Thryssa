@@ -24,10 +24,13 @@ const toc = headings.filter(h => h.depth >= 2 && h.depth <= 4);
         <nav class="space-y-2 text-gray-600 dark:text-gray-400">
             {toc.map(item => (
                 <a
-                    href={`#${item.slug}`}
-                    class="block pl-[calc((item.depth - 2) * 1rem)] hover:text-[#54336c] transition-colors"
+                href={`#${item.slug}`}
+                class={`block hover:text-[#54336c] transition-colors 
+                ${item.depth > 2 ? "text-sm text-gray-500" : "text-base font-medium"}
+                `}
+                style={{ paddingLeft: `${(item.depth - 2) * 16}px` }} 
                 >
-                    {item.text}
+                {item.text}
                 </a>
             ))}
         </nav>
