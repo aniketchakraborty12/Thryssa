@@ -109,7 +109,7 @@ export default function CategoryFilter({ blogs, categories }: Props) {
                 <h2 className="text-xl font-semibold group-hover:text-[#54336c] transition-colors mb-2 line-clamp-2">
                   {blog.title}
                 </h2>
-                <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
+                <p className="text-sm text-gray-700 dark:text-gray-300 mb-4 line-clamp-4">
                   {blog.excerpt}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-3">

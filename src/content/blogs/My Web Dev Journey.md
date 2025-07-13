@@ -1,6 +1,6 @@
 ---
 title: "My Web Dev Journey: From B.Tech to Fullstack Developer"
-excerpt: "A short summary about me dealing with my college life."
+excerpt: "A candid look at how I stumbled through college, discovered web development, and found my way from procrastination to fullstack passion."
 pubDate: 2025-07-12
 categories: ["Career"]
 featured: true
@@ -8,7 +8,7 @@ featured: true
 
 *“Engineers like to solve problems. If there are no problems handily available, they will create their own problems.”* — Scott Adams
 
-My decision to take up web development stems from the latter part of the quote — the first sentence had no relation to my college life. All I learned in college was how **not** to approach a problem, and which fields I was definitely not made for.
+My decision to pursue web development aligns more with the latter part of the quote — the first sentence had little to do with my college experience. All I learned in college was how **not** to approach a problem, and which fields I was definitely not made for.
 
 ## Humble Beginnings
 
@@ -48,7 +48,7 @@ My groupmates were deep into ML and Java Spring Boot and thought web dev was poi
 
 ### Grid or Flex?
 
-My entire 5th semester was spent learning basic HTML tags and CSS properties. Creating components like accordions, cards, testimonials, etc., took up most of my time as I honed my frontend skills. Slowly and steadily, by the end of the semester, I had successfully built my first website (as part of an assignment), utilizing most of what I had learned.
+My entire 5th semester was spent learning basic HTML tags and CSS properties. I spent countless hours building components like accordions, cards, and testimonials — each one sharpening my frontend skills. Slowly and steadily, by the end of the semester, I had successfully built my first website (as part of an assignment), utilizing most of what I had learned.
 
 The 6th semester was all about building more and more websites. Some were incomplete, some were complete but not up to standard, and some remained only as ideas. But every project helped me understand and get familiar with important CSS properties and layout patterns.  
 However, somewhere along the line, my growth began to stagnate.  
@@ -82,7 +82,7 @@ For the first few weeks, I focused on routing, creating components, and integrat
 
 Despite the struggle, hooks paved the way for more efficient development. I now use `useState` nearly every time I need dynamic, changing state in my apps.
 
-### React Done, Now Next?
+### React Done — Now Next?
 
 January 2025 marked the beginning of my post-React phase. I had joined a mentorship program, where I was tasked with learning Next.js — especially SSR/CSR concepts — and other real-world tools.
 
@@ -96,6 +96,7 @@ Somehow, I managed to learn Next.js — and that was the moment everything chang
 
 Now that my B.Tech journey is effectively coming to an end, I’ve started working with Astro.js to create my portfolio, and using Astro + MongoDB to build this very blog site. I plan to keep pushing forward in the world of web development — creating meaningful websites that actually make a difference.
 
+Whether you're a struggling B.Tech student, a hobbyist, or just someone trying to find their place in tech — know that it’s okay to start late, fail early, and still find your path. Web development gave me direction, and it might just do the same for you.
 ---
 
 That’s about it — the story of how I went from just another B.Tech student to a frontend (and slowly fullstack) developer. This is my journey, and I hope you’ve taken something valuable away from it.

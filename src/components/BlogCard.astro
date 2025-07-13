@@ -1,17 +1,17 @@
 ---
 export interface Props {
-  title: string;
-  excerpt: string;
-  pubDate: Date;
-  categories: string[];
-  slug: string;
+    title: string;
+    excerpt: string;
+    pubDate: Date;
+    categories: string[];
+    slug: string;
 }
 
 const { title, excerpt, pubDate, categories, slug } = Astro.props;
 const formattedDate = pubDate.toLocaleDateString(undefined, {
-  year: "numeric",
-  month: "short",
-  day: "numeric",
+    year: "numeric",
+    month: "short",
+    day: "numeric",
 });
 ---
 
@@ -28,7 +28,7 @@ const formattedDate = pubDate.toLocaleDateString(undefined, {
         {title}
         </h2>
 
-        <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">{excerpt}</p>
+        <p class="text-sm text-gray-700 dark:text-gray-300 mb-4 line-clamp-4">{excerpt}</p>
 
         <div class="flex flex-wrap gap-2 mb-4">
             {categories.map((cat: string) => (
