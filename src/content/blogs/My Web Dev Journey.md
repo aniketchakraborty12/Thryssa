@@ -17,7 +17,7 @@ I started my college journey in 2021. Techno India University, albeit not the mo
 
 ### Healthy "Competition"...???
 
-From the get-go, I found a massive flaw among my peers — most of them were extremely laid-back when it came to academics. Don't get me wrong, there were incredibly talented and goal-driven individuals in my class, but they were the minority in an 80-student classroom. As a result, slumps and bunks during class hours became so frequent that teachers barely managed to muster 40% attendance, even in core subjects.
+From the get-go, I found a massive flaw among my peers — most of them were extremely laid-back when it came to academics. Don't get me wrong, there were incredibly talented and goal-driven individuals in my class, but they were the minority in an 80-student classroom. As a result, slumps and bunks during class hours became so frequent that students barely managed to muster 40% attendance, even in core subjects.
 
 Unfortunately, my initial friend group embraced this laid-back approach. We frequently bunked classes to eat out, watch movies, and waste time. Unknowingly, I delayed my breakthrough, scraped by with a CGPA over 8, and developed an unhealthy habit of procrastination. On top of that, two early scandals (neither of which I was directly involved in) made it difficult for me to connect with the group going forward.
 

@@ -6,3 +6,4 @@ categories: ["Tools", "Tips"]
 featured: false
 ---
 
+Let's be honest - programming without tools isn't exactly fun. You're constantly
