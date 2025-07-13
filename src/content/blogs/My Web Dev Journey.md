@@ -97,6 +97,7 @@ Somehow, I managed to learn Next.js — and that was the moment everything chang
 Now that my B.Tech journey is effectively coming to an end, I’ve started working with Astro.js to create my portfolio, and using Astro + MongoDB to build this very blog site. I plan to keep pushing forward in the world of web development — creating meaningful websites that actually make a difference.
 
 Whether you're a struggling B.Tech student, a hobbyist, or just someone trying to find their place in tech — know that it’s okay to start late, fail early, and still find your path. Web development gave me direction, and it might just do the same for you.
+
 ---
 
 That’s about it — the story of how I went from just another B.Tech student to a frontend (and slowly fullstack) developer. This is my journey, and I hope you’ve taken something valuable away from it.
