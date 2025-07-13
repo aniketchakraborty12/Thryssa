@@ -1,7 +1,7 @@
 ---
 title: "My Web Dev Journey: From B.Tech to Fullstack Developer"
 excerpt: "A candid look at how I stumbled through college, discovered web development, and found my way from procrastination to fullstack passion."
-pubDate: 2025-07-12
+pubDate: 2025-07-13
 categories: ["Career"]
 featured: true
 ---
