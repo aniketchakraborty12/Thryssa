@@ -1,61 +1,28 @@
-# 🗓️ 1-Month Blog Content Calendar – Fullstack Developer Edition
+# 🗓️ 3-Month Blog Content Calendar – Fullstack Developer Edition (Markdown Table Format)
 
-This plan is designed for a frontend/fullstack developer who just graduated and is building a dev-focused personal blog.
-
----
-
-## 📅 Week 1
-
-### ✅ Post 1: *My Web Dev Journey: From BTech to Fullstack Developer*
-- **Tags**: `Learning Journey`, `Career`, `BTech Life`, `Beginner`
-- **Summary**: Share your personal story—how you got into coding, your BTech experience, what pushed you toward web dev.
-
-### ✅ Post 2: *Top 7 Tools I Use as a Frontend Developer Every Day*
-- **Tags**: `VS Code`, `Git`, `Frontend`, `Productivity`
-- **Summary**: Go over your daily tools and extensions (VS Code plugins, CLI tools, GitHub workflows, etc.).
-
----
-
-## 📅 Week 2
-
-### ✅ Post 3: *How I Built My Personal Portfolio with React and TailwindCSS*
-- **Tags**: `React`, `TailwindCSS`, `Frontend`, `Portfolio`, `Deployment`
-- **Summary**: Walk through your project architecture, folder structure, hosting process. Add GitHub + live link.
-
-### ✅ Post 4: *Understanding useEffect in React with Real-World Examples*
-- **Tags**: `React`, `React Hooks`, `JavaScript Concepts`, `Beginner`
-- **Summary**: Explain useEffect with use cases (API call, timer, cleanup function). Great for SEO and junior devs.
-
----
-
-## 📅 Week 3
-
-### ✅ Post 5: *5 Common Mistakes I Made as a Beginner Developer (and How I Fixed Them)*
-- **Tags**: `Learning Journey`, `Beginner`, `Tips & Tricks`
-- **Summary**: Share early dev mistakes (bad code structure, ignoring git, etc.) and what you learned.
-
-### ✅ Post 6: *Build a Simple REST API with Node.js and Express (Step-by-Step)*
-- **Tags**: `Node.js`, `Express`, `Backend`, `Tutorial`
-- **Summary**: Create a CRUD API and explain routes, middleware, folder structure, and testing with Postman.
-
----
-
-## 📅 Week 4
-
-### ✅ Post 7: *How I Prepared for My First Dev Job Interviews*
-- **Tags**: `Career`, `Job Hunt`, `Interviews`, `Resources`
-- **Summary**: Resume tips, where you applied, how you practiced DSA/system design, etc.
-
-### ✅ Post 8: *What I’d Tell My 1st Year CS Self (Advice for BTech Students)*
-- **Tags**: `CS Student`, `College Life`, `Motivation`, `Beginner`
-- **Summary**: Honest advice to juniors—what you wish you knew earlier.
-
----
-
-## ✅ Tips
-- **Publish Days**: Recommend Tuesday + Saturday (or adjust as needed)
-- **Include**: Code snippets (GitHub Gists), images/diagrams, and links to your projects
-- **CTA**: End posts with a question or call to action like “Drop your thoughts below!”
-
----
-
+| **Week** | **Post Title**                                                                 | **Categories**                            | **Summary**                                                                                              |
+|----------|----------------------------------------------------------------------------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| Week 1   | My Web Dev Journey: From BTech to Fullstack Developer                           | `Career`, `Personal`                       | Share how you moved from engineering studies into fullstack development.                                 |
+|          | Tools I Use Every Day as a Frontend Developer                                   | `Tools`, `Tips`                            | List the extensions, apps, and tools that make your dev life easier.                                      |
+| Week 2   | How I Built My Personal Portfolio with Next.js and TailwindCSS                  | `Projects`, `Tutorial`                     | Show how you structured and deployed your personal portfolio site.                                        |
+|          | How useEffect Works in React (With Examples)                                    | `Tutorial`, `Tips`                         | Explain useEffect through simple real-world examples.                                                     |
+| Week 3   | Mistakes I Made When I Started Coding                                           | `Tips`, `Personal`                         | Talk about beginner mistakes and what you learned fixing them.                                            |
+|          | Getting Started with Next.js: Beginner Setup Guide                              | `Tutorial`, `Projects`                     | Step-by-step guide to setting up a simple app in Next.js.                                                 |
+| Week 4   | How I Prepared for Frontend Interviews                                          | `Career`, `Tips`                           | Share how you practiced DSA, frontend topics, and system design.                                          |
+|          | Advice I’d Give to 1st Year CS Students                                         | `Personal`, `Career`                       | Share what you wish you knew early on in college.                                                         |
+| Week 5   | How I Use Git and GitHub as a Developer                                         | `Tools`, `Tips`                            | Your personal Git workflow, commands you use often, and how you push projects.                           |
+|          | Why I Started Blogging as a Developer                                           | `Personal`, `Career`                       | Your reason for writing, even as a beginner, and what you hope others get out of it.                      |
+| Week 6   | How I Made My Website Responsive Using TailwindCSS                              | `Projects`, `Tips`                         | Talk about your mobile-first approach, Tailwind tips, and testing.                                        |
+|          | How I Manage Frontend State in React                                            | `Tutorial`, `Tips`                         | Share examples of how you use `useState`, `useReducer`, or context for managing app state.               |
+| Week 7   | Dark Mode Toggle in Next.js with Tailwind and LocalStorage                      | `Projects`, `Tutorial`                     | Guide on adding dark mode to a real project.                                                              |
+|          | How to Make a Portfolio That Gets Noticed                                       | `Career`, `Tips`                           | Tips from your experience on what makes a portfolio clear and effective.                                  |
+| Week 8   | How to Call APIs in React (Fetch vs Axios)                                      | `Tutorial`, `Tips`                         | Compare both methods and show practical use cases with error handling.                                    |
+|          | My First Contribution to Open Source: What I Learned                            | `Learning`, `Career`, `Personal`           | Talk about your first pull request and what the experience taught you.                                    |
+| Week 9   | Testing APIs with Postman as a Frontend Dev                                     | `Tools`, `Tutorial`                        | Show how you use Postman to test endpoints, inspect responses, and debug.                                 |
+|          | Things That Make a Great UI (And What I Got Wrong)                              | `Tips`, `Projects`                         | Share your UI/UX takeaways and lessons from building your projects.                                       |
+| Week 10  | Using MongoDB with Next.js (Beginner Guide)                                     | `Tutorial`, `Projects`                     | Explain how to connect MongoDB Atlas to a Next.js project.                                                |
+|          | How I Deployed My Fullstack App on Vercel                                       | `Projects`, `Tutorial`, `Tools`            | Step-by-step how you deployed your Next.js app, connected backend, and used environment variables.        |
+| Week 11  | Adding Login Functionality in Next.js (with JWT or NextAuth)                    | `Tutorial`, `Projects`                     | How you implemented authentication in your app.                                                           |
+|          | Clean Code Practices I Started Following Early On                               | `Tips`, `Learning`                         | Share how you write better code now than when you started.                                               |
+| Week 12  | What I’m Learning Next as a Junior Fullstack Developer                          | `Learning`, `Personal`, `Career`           | Share your upcoming roadmap: TypeScript, testing, backend, or deeper React/Next topics.                  |
+|          | 10 Blog Post Ideas for New Developers                                           | `Tips`, `Learning`                         | Share blog post ideas other juniors can write if they’re just starting.                                  |
