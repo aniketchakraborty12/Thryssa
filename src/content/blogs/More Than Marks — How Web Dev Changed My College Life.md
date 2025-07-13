@@ -1,5 +1,5 @@
 ---
-title: "My Web Dev Journey: From B.Tech to Fullstack Developer"
+title: "More Than Marks: How Web Dev Changed My College Life"
 excerpt: "A candid look at how I stumbled through college, discovered web development, and found my way from procrastination to fullstack passion."
 pubDate: 2025-07-12
 categories: ["Career", "Personal"]
@@ -15,15 +15,15 @@ My decision to pursue web development aligns more with the latter part of the qu
 I started my college journey in 2021. Techno India University, albeit not the most popular institution, promised top-notch education, unparalleled help from faculty members, healthy competition from peers, and renowned placement prowess.  
 *(Spoiler alert — I was unable to see any of those promises materialize.)*
 
-### Healthy "Competition"...???
+### Healthy Competition...???
 
 From the get-go, I found a massive flaw among my peers — most of them were extremely laid-back when it came to academics. Don't get me wrong, there were incredibly talented and goal-driven individuals in my class, but they were the minority in an 80-student classroom. As a result, slumps and bunks during class hours became so frequent that students barely managed to muster 40% attendance, even in core subjects.
 
-Unfortunately, my initial friend group embraced this laid-back approach. We frequently bunked classes to eat out, watch movies, and waste time. Unknowingly, I delayed my breakthrough, scraped by with a CGPA over 8, and developed an unhealthy habit of procrastination. On top of that, two early scandals (neither of which I was directly involved in) made it difficult for me to connect with the group going forward.
+In the beginning, I fell into a relaxed routine with a group of friends who, like me at the time, weren’t overly focused on academics. We spent more time at food joints and theaters than in classrooms. Unknowingly, I delayed my breakthrough, scraped by with a CGPA over 8, and developed an unhealthy habit of procrastination. There were a couple of incidents early on that made things socially complicated — nothing I was directly part of, but enough to create distance. Looking back, it was a wake-up call I probably needed.
 
 My life wasn't exactly monotonous, but it definitely wasn’t positive either.
 
-### The Nerd Group
+### The "Nerd Group"
 
 As second year rolled in, I slowly realized the mess I was stuck in. I had to get my act together and go through a much-needed academic revamp if I was to have any hope of redemption.
 
@@ -54,9 +54,7 @@ The 6th semester was all about building more and more websites. Some were incomp
 However, somewhere along the line, my growth began to stagnate.  
 It was time for a last-minute push.
 
-## Crown Comes Calling!
-
-### Exhibition for Inhibition
+## Exhibition for Inhibition
 
 Just before my final year, the college organized an intra-college ML Hackathon/Exhibition for 3rd and 4th-year students. I, a newbie, decided to participate with a team of fellow beginners.  
 *(Spoiler alert: It went horribly.)*
