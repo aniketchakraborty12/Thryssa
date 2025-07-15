@@ -12,7 +12,7 @@ My decision to pursue web development aligns more with the latter part of the qu
 
 ## Humble Beginnings
 
-I started my college journey in 2021. Techno India University, albeit not the most popular institution, promised top-notch education, unparalleled help from faculty members, healthy competition from peers, and renowned placement prowess.  
+I started my college journey in 2021. My (ex) college, albeit not the most popular institution, promised top-notch education, unparalleled help from faculty members, healthy competition from peers, and renowned placement prowess.  
 *(Spoiler alert — I was unable to see any of those promises materialize.)*
 
 ### Healthy Competition...???
