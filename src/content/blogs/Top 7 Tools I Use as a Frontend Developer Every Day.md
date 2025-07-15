@@ -20,7 +20,7 @@ My favourite CSS-utility framework, Tailwind has been game changing for me since
 Pro tip: Never back down from using Tailwind CSS just because the "tags look long and complicated".
 
 ### Figma
-I'm a big fan of logos, especially designing logos with fonts and color gradients. But sometimes I do want to design a wireframe for my website before I get my hands dirty.  
+I'm a big fan of logos, especially designing logos with fonts and color gradients. But sometimes I want to design a wireframe for my website before I get my hands dirty.  
 Either way, I turn to Figma.
 
 Figma is an interface designing tool excelling in creating mockups and products with minimal effort. Drag-and-drop functionality, FigJam, and plugins boost its already star-studded reputation.
