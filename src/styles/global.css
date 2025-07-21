@@ -38,7 +38,46 @@ body {
     scroll-margin-top: 6rem;
 }
 
+/* Force proper list styles */
+.prose ul,
+.prose ol {
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin: -1rem 0;
+}
 
+.prose pre {
+    @apply p-4 rounded-md bg-gray-100 text-sm overflow-x-auto my-5;
+}
+
+.dark .prose pre {
+    @apply bg-gray-900 my-5;
+}
+
+.prose code {
+    @apply bg-gray-100 text-pink-600 px-1 py-0.5 rounded font-mono text-sm;
+}
+
+.dark .prose code {
+    @apply bg-gray-800 text-pink-400;
+}
+
+.prose pre code {
+    @apply bg-transparent p-0 text-inherit;
+}
+
+.dark .prose pre code {
+    @apply bg-transparent text-inherit;
+}
+
+.prose blockquote {
+    @apply bg-gray-400/10 text-gray-800 px-2 ml-10;
+}
+
+.dark .prose blockquote {
+    @apply bg-gray-800/20 text-gray-200;
+}
 
 .heading-anchor {
     text-decoration: none;
