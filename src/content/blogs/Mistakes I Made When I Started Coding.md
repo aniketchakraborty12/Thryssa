@@ -129,6 +129,6 @@ A small pep-talk: No job, no matter how important, should ever come at the expen
 
 Mistakes are part of life, and while we can’t avoid making them, we can certainly minimize their frequency and impact. By learning from our mistakes and not repeating them, we grow as developers—and as people
 
-That is all from my part for this blog. I hope you have learned something insightful through this blog. Thank you for reading.
+That is all from my part. If you've learned something from the blog, make sure to comment down below. Thank you for reading.
 
 **Until Next Time!**

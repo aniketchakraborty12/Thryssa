@@ -177,6 +177,6 @@ useEffect(() => {
 
 ---
 
-So that was it from my part about `useEffect`. I hope you have taken something valuable away from this blog. I'll be sure to bring many of these tutorials in the coming weeks.
+So that was it from my part about `useEffect`. Make sure to drop what you've learned down in the comments. I'll be sure to bring many of these tutorials in the coming weeks.
 
 **Until Next Time!**

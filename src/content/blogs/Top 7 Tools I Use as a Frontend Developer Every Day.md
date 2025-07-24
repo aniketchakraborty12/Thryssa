@@ -57,6 +57,6 @@ Seeing its stocks diminish after switching to React, Next, and Astro, Live Previ
 
 These are 7 tools that I use almost every day as a frontend developer, that helps boost my productivity and reduces time. Some honorable mentions are — Tailwind Intellisense (extension), Windsurf Plugin (extension), Chrome Devtools and Git.
 
-If you're just getting into frontend dev or looking to upgrade your workflow, give a few of these a try.
+If you're just getting into frontend dev or looking to upgrade your workflow, give a few of these a try. Share some of your own favored tools down in the comments.
 
 **Until next time!**

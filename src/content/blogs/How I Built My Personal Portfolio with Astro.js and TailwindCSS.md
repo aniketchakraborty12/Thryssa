@@ -85,4 +85,6 @@ If you're indecisive between choosing Astro.js or Next.js, go for Astro.js. Astr
 
 Remember, it's not the tech stack, or the components, or the deployment errors that are getting in your way. It's your double-mindedness. *Keep your head down while working, and up while presenting*. Believe in your capabilities, and the portfolio will be stacked before you know it.
 
+If you liked the blog, make sure to comment down below.
+
 **Until Next Time!**
