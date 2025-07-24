@@ -1,7 +1,8 @@
 ---
 import Navbar from "../components/Navbar.astro";
 const { title } = Astro.props;
-import '../styles/global.css'
+import fs from 'fs';
+const criticalCSS = fs.readFileSync('./src/styles/global.css', 'utf-8');
 ---
 
 <!doctype html>
@@ -12,6 +13,17 @@ import '../styles/global.css'
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title ? `${title} | Thryssa` : "Thryssa"}</title>
+		<style is:inline>{criticalCSS}</style>
+		<!-- Preconnect to Google Fonts domains -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<!-- Preload and non-blocking load -->
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" />
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+		<noscript>
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+		</noscript>
 		<script is:inline>
 			(() => {
 				try {

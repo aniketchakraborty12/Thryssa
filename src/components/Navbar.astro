@@ -3,8 +3,12 @@ import logo from '../assets/thryssa.svg'
 import { Image } from 'astro:assets'
 import DarkModeToggle from './DarkModeToggle.jsx'
 ---
-
-<div class="w-full sticky top-0 flex z-5 justify-between py-3 px-10 items-center bg-white dark:bg-black shadow-[0_2px_32px_rgba(0,0,0,0.2)] dark:shadow-[0_2px_32px_rgba(255,255,255,0.2)] mb-5 md:mb-10 lg:mb-15">
+<!-- Header (fixed, but won't take up space) -->
+<div class="w-full fixed top-0 flex z-50 justify-between py-3 px-10 items-center bg-white dark:bg-black shadow-[0_2px_32px_rgba(0,0,0,0.2)] dark:shadow-[0_2px_32px_rgba(255,255,255,0.2)]">
     <Image src={logo} alt="Logo" class="w-[150px] cursor-pointer" onclick="window.location.href = '/'" />
     <DarkModeToggle client:load />
 </div>
+
+<!-- Spacer (takes up the same height as the header) -->
+<div class="h-[72px] md:h-[88px] lg:h-[104px]"></div>
+

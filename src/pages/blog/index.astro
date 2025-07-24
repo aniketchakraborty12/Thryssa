@@ -20,7 +20,7 @@ const allCategories = Array.from(
 ).sort();
 ---
 
-<Layout>
+<Layout title="Blogs">
   <h1 class="text-5xl text-center mt-20">All Blog Posts</h1>
 
   <CategoryFilter client:load blogs={simplifiedBlogs} categories={allCategories} />
