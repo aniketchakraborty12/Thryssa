@@ -11,8 +11,15 @@ import "../styles/global.css";
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="Thryssa is a platform for Aniket Chakraborty to share his personal blogs about web development, design, and life." />
+		<meta name="description" content="Thryssa is a curated collection of thoughtful blogs on web development, design, and everyday ideas." />
 		<title>{title ? `${title} | Thryssa` : "Thryssa"}</title>
+		<meta name="author" content="Aniket Chakraborty" />
+		<meta property="og:title" content={title ? `${title} | Thryssa` : "Thryssa"} />
+		<meta property="og:description" content="Thryssa is a curated collection of thoughtful blogs on web development, design, and everyday ideas." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://thryssa.vercel.app" />
+		<meta property="og:image" content="https://thryssa.com/thryssa.vercel.app_.png" />
+		<meta property="og:site_name" content="Thryssa" />
 		<!-- Preconnect to Google Fonts domains -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
