@@ -1,7 +1,7 @@
 ---
 title: "How I Made My Website Responsive Using TailwindCSS"
 excerpt: "How I used TailwindCSS and a mobile-first approach to make my personal website fully responsive across devices."
-pubDate: 2025-07-02
+pubDate: 2025-08-02
 categories: ["Projects", "Tips"]
 featured: false
 ---
