@@ -68,12 +68,46 @@ Suppose you need to learn hooks in React. You aim to distribute the entire list 
 
 ### Blocks for Time, not CSS
 
-Now that your schedule is up and ready, it is important to break the individual days so that you don't burn out too soon. The best way of doing that is by assigning blocks of time with occasional free time squeezed in between.
+Now that your schedule is up and ready, it is important to break the individual days so that you don't burn out too soon. The best way to do this is by assigning focused time blocks throughout the day, with occasional breaks in between to recharge.
+
+Since we're talking about hooks in React, say you aim to finish the useState hook in 1 day. Fair enough goal, but how many examples are you aiming to practice in 1 go? Should it be 3? 4? 5?
+
+The answer is — the number you can fit within the space of an hour. No need to push yourself to finish as much as you can in that 1 hour, but understand each concept and example before moving on to the next. In that way, you'll learn both the concept and the art of preserving stamina and attention. A 15-minute break later, you're back again in front of your device, aiming to complete the next example.
 
 ### It's Hands-On Time
 
+Till this point, all you did was plan. You planned how to divide your work into a week. You planned how to take rests between your tasks in a day. Realistically, the next course of action is getting your hands dirty and actually implementing them. What better way to see if the calibrations work as intended than actually to work with them?
+
+Well, it goes deeper than just that. You see, different projects require different attention spans. You can't possibly expect to learn hooks the same way you learned routing in React. Every concept is different, and the method to learn and practice them differs. What you're actually doing is fine-tuning the practice sessions according to your needs.
+
+The 1-hour mark for each session will undoubtedly be stretched, and that's fair, as long as you don't forget to take that break. Practice the methods, and see what works for you. Is it 1-week or less? Is it 1-hour or more? Who knows, except you yourself?
+
 ## It's a Sign, to Tune Out
+
+What happens if you forget to take that break? Does your body feel nauseous? Heavy? Do you become tired easily? Cannot continue with the same intensity?
+
+These are the signs that your body gives you to tell you to stop. It is a simple sign — "You are overburdening the body with the tasks. Please take a break".
 
 ### It's Giving — Trend Fatigue
 
+As said earlier, your body isn't a machine. It is not meant for continuous hours of rigorous and uninterrupted work. The more you deprive your body of its necessary cooldown period, the more it'll start to act up. Nausea, tiredness, and unwillingness to work are some of the most common but vital signs of what I decided to term 'Trend Fatigue'.
+
+You're (un)intentionally making a habit or trend out of depleting your body's strength, sapping out its energy and not replenishing it properly. As a result, your body cannot give its 100% every time, and the depletion occurs every session. Soon, your body might break down, and you might face a serious illness that'll hinder your ability to take part in trends.
+
+Therefore, make sure to get your hourly dose of refreshments to keep in touch with the modern trends. After all, it's highly unlikely that several groundbreaking frameworks will be released during your 15-minute break.
+
 ### Chill Out, It's You
+
+Finally, **stop competing with people** when it comes to keeping up with trends. The very obvious reason is that everybody's intake capability is different. One might catch up to trends within a week after their release, while the other might take 2 weeks. It does not mean that the latter is slow or ineffective. You're doing what needs to be done, and you're doing it at your own pace. Stop comparing your progress with everybody else.
+
+> Comparison is the thief of joy
+
+Learn to be hungry, but content. You're competing with yourself, you're learning for yourself. Don't let an outsider disrupt your focus and divert your attention.
+
+ ---
+
+While keeping up with trends might be a good idea, the best idea is to keep in touch with your sanity and body during the entire ordeal. You'll need much more than just a good internet connection to be able to keep up; you'll need your brain and body to function at 100% of their capacity.
+
+ That's all there is to it. Please feel free to comment on your views on this article below. I'll be back next time with another educational blog.
+
+ **Until next time!**
