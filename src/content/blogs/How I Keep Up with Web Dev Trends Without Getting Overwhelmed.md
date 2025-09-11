@@ -1,7 +1,7 @@
 ---
 title: "How I Keep Up with Web Dev Trends Without Getting Overwhelmed"
 excerpt: "Here’s how I stay current with web development trends without burning out or chasing every shiny new tool."
-pubDate: 2025-09-15
+pubDate: 2025-09-11
 categories: ["Learning", "Personal"]
 featured: true
 ---
