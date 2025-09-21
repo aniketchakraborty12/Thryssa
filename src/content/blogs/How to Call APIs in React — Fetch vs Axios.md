@@ -1,7 +1,7 @@
 ---
 title: "How to Call APIs in React — Fetch vs Axios"
 description: "A practical guide comparing Fetch and Axios for API calls in React, with real-world examples and error handling techniques."
-pubDate: 2025-09-20
+pubDate: 2025-10-30
 categories: ["Tutorial", "Tips"]
 featured: false
 ---
